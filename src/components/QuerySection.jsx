@@ -10,7 +10,6 @@ const QuerySection = () => {
       question: "Who are we?",
       answer: "We’re a group of teenagers passionate about helping people understand their Nikahnama and what it really says, what it protects, and why it matters."
     },
-    {}
       id: 2,
       question: "What do we do?",
       answer: "We guide people through the Nikahnama so they know exactly what they’re signing. Our goal is to make sure no one signs it blindly, but with full understanding of their rights and responsibilities."
