@@ -4,20 +4,45 @@ import './ClausesSection.css'
 const ClausesSection = () => {
   const [activeCategory, setActiveCategory] = useState('all')
 
+  const categories = [
+    { id: 'all', name: 'All' },
+    { id: 'marriage', name: 'Marriage' },
+    { id: 'rights', name: 'Rights' },
+    { id: 'responsibilities', name: 'Responsibilities' },
+    // Add more categories if needed
+  ]
+
   const clauses = [
     {
       id: 1,
-      title: "",
-      category: "",
-      description: "",
-      content: `
-
-`,
-      importance: "",
-      instaPost: ""
+      title: "Clause Title 1",
+      category: "marriage",
+      description: "Short description of clause 1",
+      content: `This is the detailed explanation of clause 1.
+You can use multiple lines here.`,
+      importance: "High",
+      instaPost: "https://www.instagram.com/p/example1"
     },
     {
-  
+      id: 2,
+      title: "Clause Title 2",
+      category: "rights",
+      description: "Short description of clause 2",
+      content: `This is the detailed explanation of clause 2.`,
+      importance: "Medium",
+      instaPost: "https://www.instagram.com/p/example2"
+    },
+    {
+      id: 3,
+      title: "Clause Title 3",
+      category: "responsibilities",
+      description: "Short description of clause 3",
+      content: `This is the detailed explanation of clause 3.`,
+      importance: "Low",
+      instaPost: "https://www.instagram.com/p/example3"
+    }
+    // Add more clauses as needed
+  ]
 
   const filteredClauses = activeCategory === 'all' 
     ? clauses 

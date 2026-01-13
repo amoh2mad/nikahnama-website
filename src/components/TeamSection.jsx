@@ -21,20 +21,18 @@ const TeamSection = () => {
       id: 3,
       name: "Yahya Burhan",
       role: "Founders Associate",
-      description: "A Levels @ Westminister Islamabad, 6'4 Alpha Performative Male ",
+      description: "A Levels @ Westminister Islamabad, 6'4 Alpha Performative Male",
       image: ""
-    },
-    {
-     
+    }
   ]
 
   const mission = {
     vision: "Our mission is to educate communities about the Nikahnama, promote understanding of its legal and spiritual importance, and share real stories that raise the voices of the unheard.",
     values: [
-      "Accountability : We believe that those who suppress others or deny them their rightful freedoms should be brought to justice under the light of the law.",
-      "Empowerment : Our mission includes empowering those who feel weak or unheard , helping them find the confidence to speak up and stand for their rights.",
-      "Enlightenment : We strive to educate people about the Nikahnama, its clauses and the truths often buried by those who misuse power. ",
-      "Transparency : We are committed to sharing facts that are honest and unaltered. Transparency is our utmost priority .",
+      "Accountability: We believe that those who suppress others or deny them their rightful freedoms should be brought to justice under the light of the law.",
+      "Empowerment: Our mission includes empowering those who feel weak or unheard, helping them find the confidence to speak up and stand for their rights.",
+      "Enlightenment: We strive to educate people about the Nikahnama, its clauses and the truths often buried by those who misuse power.",
+      "Transparency: We are committed to sharing facts that are honest and unaltered. Transparency is our utmost priority."
     ]
   }
 
@@ -72,16 +70,16 @@ const TeamSection = () => {
         <h3>What We Stand For</h3>
         <div className="stand-for-grid">
           <div className="stand-card">
-            <h4>WE stand for justice</h4>
+            <h4>We stand for justice</h4>
           </div>
           <div className="stand-card">
-            <h4>WE stand to ask questions and demand answers</h4>
+            <h4>We stand to ask questions and demand answers</h4>
           </div>
           <div className="stand-card">
-            <h4> WE stand to bring a change</h4>
+            <h4>We stand to bring a change</h4>
           </div>
           <div className="stand-card">
-            <h4>WE stand with every voice that is silenced</h4>
+            <h4>We stand with every voice that is silenced</h4>
           </div>
         </div>
       </div>
