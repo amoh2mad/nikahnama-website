@@ -28,32 +28,15 @@ const SuggestionsSection = () => {
         </div>
 
         <div className="google-form-container">
-          <div className="form-placeholder">
-            <h3>📝 Suggestions Form</h3>
-            <p>We'll embed a Google Form here for your suggestions</p>
-            <div className="form-preview">
-              <div className="form-field"></div>
-              <div className="form-field"></div>
-              <div className="form-field"></div>
-              <button className="btn-primary">Submit Suggestion</button>
-            </div>
-            <p className="form-note">
-              <strong>Note:</strong> Replace this with your actual Google Form embed code
-            </p>
+          <div className="responsive-iframe">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSea3N4kMUURtNnosC6Dl3DJLbcxivUlfZnxov5Vc7u6im6j5Q/viewform?embedded=true"
+              frameBorder="0"
+              marginHeight="0"
+              marginWidth="0"
+              title="Suggestions Form"
+            ></iframe>
           </div>
-          
-          {/*
-          <iframe 
-            src="https://docs.google.com/forms/d/e/1FAIpQLSea3N4kMUURtNnosC6Dl3DJLbcxivUlfZnxov5Vc7u6im6j5Q/viewform?embedded=true
-            width="100%" 
-            height="800" 
-            frameBorder="0" 
-            marginHeight="0" 
-            marginWidth="0"
-          >
-            Loading…
-          </iframe>
-          */}
         </div>
       </div>
 
