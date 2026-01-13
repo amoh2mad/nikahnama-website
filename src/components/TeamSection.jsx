@@ -21,25 +21,20 @@ const TeamSection = () => {
       id: 3,
       name: "Yahya Burhan",
       role: "Founders Associate",
-      description: "A Levels @ Westminister Islamabad",
+      description: "A Levels @ Westminister Islamabad, 6'4 Alpha Performative Male ",
       image: ""
     },
     {
-      id: 4,
-      name: "Test ",
-      role: "Test role",
-      description: "Test description",
-      image: ""
-    }
+     
   ]
 
   const mission = {
-    vision: "To create awareness about Islamic marital rights and empower individuals with knowledge for equitable relationships.",
+    vision: "Our mission is to educate communities about the Nikahnama, promote understanding of its legal and spiritual importance, and share real stories that raise the voices of the unheard.",
     values: [
-      "Empowerment through education",
-      "Respect for Islamic principles",
-      "Confidentiality and trust",
-      "Community support",
+      "Accountability : We believe that those who suppress others or deny them their rightful freedoms should be brought to justice under the light of the law.",
+      "Empowerment : Our mission includes empowering those who feel weak or unheard , helping them find the confidence to speak up and stand for their rights.",
+      "Enlightenment : We strive to educate people about the Nikahnama, its clauses and the truths often buried by those who misuse power. ",
+      "Transparency : We are committed to sharing facts that are honest and unaltered. Transparency is our utmost priority .",
     ]
   }
 
@@ -77,20 +72,16 @@ const TeamSection = () => {
         <h3>What We Stand For</h3>
         <div className="stand-for-grid">
           <div className="stand-card">
-            <h4>📚 Education</h4>
-            <p>Providing accurate information about nikahnama clauses and their implications</p>
+            <h4>WE stand for justice</h4>
           </div>
           <div className="stand-card">
-            <h4>⚖️ Rights</h4>
-            <p>Ensuring both partners understand and protect their Islamic rights</p>
+            <h4>WE stand to ask questions and demand answers</h4>
           </div>
           <div className="stand-card">
-            <h4>🤝 Support</h4>
-            <p>Offering guidance and support for marital issues and questions</p>
+            <h4> WE stand to bring a change</h4>
           </div>
           <div className="stand-card">
-            <h4>🌍 Community</h4>
-            <p>Building a supportive community for shared learning and growth</p>
+            <h4>WE stand with every voice that is silenced</h4>
           </div>
         </div>
       </div>

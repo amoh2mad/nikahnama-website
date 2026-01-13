@@ -7,68 +7,17 @@ const ClausesSection = () => {
   const clauses = [
     {
       id: 1,
-      title: "Meher (Dower)",
-      category: "financial",
-      description: "The mandatory gift from husband to wife",
-      content: `Meher is a fundamental right of the wife in Islamic marriage. It can be:
-• Prompt (Mu'ajjal) - Paid immediately
-• Deferred (Mu'wajjal) - Paid later
-• Combination of both
+      title: "",
+      category: "",
+      description: "",
+      content: `
 
-The amount should be specified clearly in the nikahnama.`,
-      importance: "High",
-      instaPost: "https://instagram.com/p/example-meher"
+`,
+      importance: "",
+      instaPost: ""
     },
     {
-      id: 2,
-      title: "Right to Education & Career",
-      category: "rights",
-      description: "Preserving personal and professional growth",
-      content: `This clause ensures that marriage doesn't hinder educational or career pursuits. It can specify:
-• Right to continue education
-• Right to pursue career
-• Financial support for education
-• Mutual respect for professional goals`,
-      importance: "Medium",
-      instaPost: "https://instagram.com/p/example-education"
-    },
-    {
-      id: 3,
-      title: "Delegated Right to Divorce (Talaq-e-Tafweez)",
-      category: "rights",
-      description: "Empowering the wife with divorce rights",
-      content: `This clause delegates the right of divorce to the wife under specific conditions:
-• Husband's second marriage
-• Desertion for specified period
-• Cruelty or abuse
-• Failure to provide maintenance
-
-This provides security and equal rights.`,
-      importance: "High",
-      instaPost: "https://instagram.com/p/example-talaq"
-    },
-    {
-      id: 4,
-      title: "Maintenance & Support",
-      category: "financial",
-      description: "Financial responsibilities and support",
-      content: `Details about financial obligations:
-• Monthly maintenance amount
-• Housing provisions
-• Medical expenses
-• Children's education costs
-
-Should be realistic and mutually agreed upon.`,
-      importance: "High",
-      instaPost: "https://instagram.com/p/example-maintenance"
-    }
-  ]
-
-  const categories = [
-    { id: 'all', name: 'All Clauses' },
-    { id: 'financial', name: 'Financial' },
-    { id: 'rights', name: 'Rights & Responsibilities' }
-  ]
+  
 
   const filteredClauses = activeCategory === 'all' 
     ? clauses 

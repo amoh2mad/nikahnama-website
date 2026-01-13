@@ -7,44 +7,34 @@ const QuerySection = () => {
   const faqs = [
     {
       id: 1,
-      question: "What is the importance of Meher in Nikahnama?",
-      answer: "Meher is a mandatory gift from the groom to the bride, representing respect, love, and financial security. It's a fundamental right of the wife in Islamic marriage and can be prompt (paid immediately) or deferred (paid later), or a combination of both."
-    },
-    {
+      question: "Who are we?",
+      answer: "We’re a group of teenagers passionate about helping people understand their Nikahnama and what it really says, what it protects, and why it matters."
+
       id: 2,
-      question: "Can I add custom clauses to my Nikahnama?",
-      answer: "Yes, you can add custom clauses as long as they don't contradict Islamic principles. Common additions include education continuation rights, career rights, dispute resolution methods, and conditions for delegated divorce rights."
-    },
+      question: "What do we do?",
+      answer: "We guide people through the Nikahnama so they know exactly what they’re signing. Our goal is to make sure no one signs it blindly, but with full understanding of their rights and responsibilities."
     {
       id: 3,
-      question: "What is Talaq-e-Tafweez?",
-      answer: "Talaq-e-Tafweez is the delegated right to divorce where the husband gives the wife the right to divorce under specific conditions. This provides security and equal rights to the wife in case of specific circumstances like second marriage, desertion, or failure to provide maintenance."
+      question: "Who runs this initiative?",
+      answer: "It’s completely youth-led , run by dedicated teenagers who believe knowledge can empower and protect people in marriage."
     },
     {
       id: 4,
-      question: "Is Nikahnama legally binding?",
-      answer: "Yes, Nikahnama is a legally binding contract in Pakistan under the Muslim Family Laws Ordinance. It's recognized by courts and can be enforced legally, especially regarding financial matters like Meher and maintenance."
+      question: "Are the laws the same for all Pakistani nationals?",
+      answer: "Yes, they are. But many people don’t know what these laws actually mean for them. 
+      For example : If someone is a foreign national and marries a person whose age is below Pakistan’s legal minimum, even if it’s acceptable in their country, that marriage won’t be accepted or registered in Pakistan and they won’t be able to bring their spouse here.
+
     },
     {
       id: 5,
-      question: "What should I do if my Nikahnama is not in a language I understand?",
-      answer: "You have the right to understand every clause in your Nikahnama. If it's in a language you don't understand, request a translation or explanation before signing. Never sign documents you don't fully comprehend."
+      question: "Can I share my personal story or feedback?",
+      answer: "Through workshops, social media, and open conversations that make the Nikahnama easy to understand for everyone."
     },
     {
       id: 6,
-      question: "Can Meher amount be changed after marriage?",
-      answer: "Yes, the Meher amount can be increased after marriage through mutual consent. However, it cannot be decreased or waived without the wife's free will and consent."
+      question: "How can I contribute or collaborate?",
+      answer: "You can spread awareness, share our work, or join our future cohorts. Details about how to get involved will be posted on our Instagram soon."
     },
-    {
-      id: 7,
-      question: "What is the difference between prompt and deferred Meher?",
-      answer: "Prompt Meher (Mu'ajjal) is payable immediately upon demand, while deferred Meher (Mu'wajjal) is payable at a specified future time or upon the occurrence of a specific event, such as divorce or the husband's death."
-    },
-    {
-      id: 8,
-      question: "Are there any clauses that protect a woman's right to work?",
-      answer: "Yes, you can include specific clauses that protect your right to education, career, and professional growth. These clauses ensure that marriage doesn't hinder your personal and professional development."
-    }
   ]
 
   const toggleFAQ = (id) => {
@@ -65,8 +55,8 @@ const QuerySection = () => {
               your rights and responsibilities.
             </p>
             <div className="contact-info">
-              <p><strong>Email:</strong> info@nikahnama.org</p>
-              <p><strong>Instagram:</strong> @nikahnamaguide</p>
+              <p><strong>Email:</strong> thenikahnama.org@gmail.com</p>
+              <p><strong>Instagram:</strong> @thenikahnamaorg</p>
             </div>
           </div>
         </div>
