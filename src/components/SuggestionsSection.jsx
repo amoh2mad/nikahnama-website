@@ -28,15 +28,13 @@ const SuggestionsSection = () => {
         </div>
 
         <div className="google-form-container">
-          <div className="responsive-iframe">
-            <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSea3N4kMUURtNnosC6Dl3DJLbcxivUlfZnxov5Vc7u6im6j5Q/viewform?embedded=true"
-              frameBorder="0"
-              marginHeight="0"
-              marginWidth="0"
-              title="Suggestions Form"
-            ></iframe>
-          </div>
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSea3N4kMUURtNnosC6Dl3DJLbcxivUlfZnxov5Vc7u6im6j5Q/viewform?embedded=true"
+            title="Suggestions Form"
+            className="google-form-iframe"
+          >
+            Loading…
+          </iframe>
         </div>
       </div>
 
