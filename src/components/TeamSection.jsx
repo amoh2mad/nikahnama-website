@@ -3,27 +3,9 @@ import './TeamSection.css'
 
 const TeamSection = () => {
   const teamMembers = [
-    {
-      id: 1,
-      name: "Eeshal Imran Akram",
-      role: "Founder & CEO",
-      description: "A Levels @ ISL",
-      image: ""
-    },
-    {
-      id: 2,
-      name: "Shiza Imtiaz",
-      role: "Co-Founder",
-      description: "A Levels @ Lahore Alma",
-      image: ""
-    },
-    {
-      id: 3,
-      name: "Yahya Burhan",
-      role: "Founders Associate",
-      description: "A Levels @ Westminister Islamabad, 6'4 Alpha Performative Male",
-      image: ""
-    }
+    { id: 1, name: "Eeshal Imran Akram", role: "Founder & CEO", description: "A Levels @ ISL", image: "" },
+    { id: 2, name: "Shiza Imtiaz", role: "Co-Founder", description: "A Levels @ Lahore Alma", image: "" },
+    { id: 3, name: "Yahya Burhan", role: "Founders Associate", description: "A Levels @ Westminister Islamabad, 6'4 Alpha Performative Male", image: "" }
   ]
 
   const mission = {
@@ -47,9 +29,7 @@ const TeamSection = () => {
           <div className="values-list">
             <h4>Our Values</h4>
             <ul>
-              {mission.values.map((value, index) => (
-                <li key={index}>{value}</li>
-              ))}
+              {mission.values.map((value, index) => <li key={index}>{value}</li>)}
             </ul>
           </div>
         </div>
@@ -69,18 +49,10 @@ const TeamSection = () => {
       <div className="what-we-stand-for">
         <h3>What We Stand For</h3>
         <div className="stand-for-grid">
-          <div className="stand-card">
-            <h4>We stand for justice</h4>
-          </div>
-          <div className="stand-card">
-            <h4>We stand to ask questions and demand answers</h4>
-          </div>
-          <div className="stand-card">
-            <h4>We stand to bring a change</h4>
-          </div>
-          <div className="stand-card">
-            <h4>We stand with every voice that is silenced</h4>
-          </div>
+          <div className="stand-card"><h4>We stand for justice</h4></div>
+          <div className="stand-card"><h4>We stand to ask questions and demand answers</h4></div>
+          <div className="stand-card"><h4>We stand to bring a change</h4></div>
+          <div className="stand-card"><h4>We stand with every voice that is silenced</h4></div>
         </div>
       </div>
     </section>

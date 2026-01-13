@@ -7,59 +7,35 @@ const ClausesSection = () => {
   const categories = [
     { id: 'all', name: 'All' },
     { id: 'marriage', name: 'Marriage' },
-    { id: 'rights', name: 'Rights' },
-    { id: 'responsibilities', name: 'Responsibilities' },
-    // Add more categories if needed
+    { id: 'rights', name: 'Rights' }
   ]
 
   const clauses = [
     {
       id: 1,
-      title: "Clause Title 1",
+      title: "Example Clause",
       category: "marriage",
-      description: "Short description of clause 1",
-      content: `This is the detailed explanation of clause 1.
-You can use multiple lines here.`,
+      description: "Short explanation of the clause.",
+      content: "Full content of the clause.\nMultiple lines supported.",
       importance: "High",
-      instaPost: "https://www.instagram.com/p/example1"
-    },
-    {
-      id: 2,
-      title: "Clause Title 2",
-      category: "rights",
-      description: "Short description of clause 2",
-      content: `This is the detailed explanation of clause 2.`,
-      importance: "Medium",
-      instaPost: "https://www.instagram.com/p/example2"
-    },
-    {
-      id: 3,
-      title: "Clause Title 3",
-      category: "responsibilities",
-      description: "Short description of clause 3",
-      content: `This is the detailed explanation of clause 3.`,
-      importance: "Low",
-      instaPost: "https://www.instagram.com/p/example3"
+      instaPost: ""
     }
-    // Add more clauses as needed
   ]
 
-  const filteredClauses = activeCategory === 'all' 
-    ? clauses 
-    : clauses.filter(clause => clause.category === activeCategory)
+  const filteredClauses = activeCategory === 'all' ? clauses : clauses.filter(c => c.category === activeCategory)
 
   return (
     <section className="section clauses-section">
       <h2 className="section-title">Nikahnama Clauses Explained</h2>
       
       <div className="categories-filter">
-        {categories.map(category => (
+        {categories.map(cat => (
           <button
-            key={category.id}
-            className={activeCategory === category.id ? 'filter-btn active' : 'filter-btn'}
-            onClick={() => setActiveCategory(category.id)}
+            key={cat.id}
+            className={activeCategory === cat.id ? 'filter-btn active' : 'filter-btn'}
+            onClick={() => setActiveCategory(cat.id)}
           >
-            {category.name}
+            {cat.name}
           </button>
         ))}
       </div>
@@ -75,20 +51,13 @@ You can use multiple lines here.`,
             </div>
             <p className="clause-description">{clause.description}</p>
             <div className="clause-content">
-              {clause.content.split('\n').map((paragraph, index) => (
-                <p key={index}>{paragraph}</p>
-              ))}
+              {clause.content.split('\n').map((line, i) => <p key={i}>{line}</p>)}
             </div>
-            <div className="clause-footer">
-              <a 
-                href={clause.instaPost} 
-                className="insta-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                📱 View on Instagram
-              </a>
-            </div>
+            {clause.instaPost && (
+              <div className="clause-footer">
+                <a href={clause.instaPost} target="_blank" rel="noopener noreferrer">📱 View on Instagram</a>
+              </div>
+            )}
           </div>
         ))}
       </div>
@@ -100,7 +69,7 @@ You can use multiple lines here.`,
             <li>All clauses must comply with Islamic principles</li>
             <li>Consult with a knowledgeable scholar before adding custom clauses</li>
             <li>Ensure both parties fully understand each clause</li>
-            <li>Keep a copy of your signed nikahnama safe</li>
+            <li>Keep a copy of your signed Nikahnama safe</li>
           </ul>
         </div>
       </div>
