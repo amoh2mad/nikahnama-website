@@ -42,10 +42,9 @@ const SuggestionsSection = () => {
             </p>
           </div>
           
-          {/* Uncomment and add your Google Form embed code here */}
           {/*
           <iframe 
-            src="YOUR_GOOGLE_FORM_EMBED_LINK_HERE"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSea3N4kMUURtNnosC6Dl3DJLbcxivUlfZnxov5Vc7u6im6j5Q/viewform?embedded=true
             width="100%" 
             height="800" 
             frameBorder="0" 
